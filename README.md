@@ -1,4 +1,4 @@
-# QuadSoftSerial
+# QuadSoftSerial (4 serial port for arduino)
 
 # my Software serial, include 4 transmit port, 1 receive port
 
