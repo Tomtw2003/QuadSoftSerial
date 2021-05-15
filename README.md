@@ -62,5 +62,5 @@ void setup()
 - 4個發送和1個接收端口
 - 同時發送和接收
 - 在arduino pro mini 16MHz上測試
-- 使用 timet1 interrupt 進行傳輸
+- 使用 timer1 interrupt 進行傳輸
 - 使用 pin change interrupt 和Timer2接收
