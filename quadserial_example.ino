@@ -7,7 +7,10 @@
 #include "QuadSerialDef.h"
 
 
-// 必須 定義 在 myTxDef.h
+// use must define RX_1_PIN, TX_1_PIN~TX_4_PIN in "myTxDef.h"
+
+
+
 //SoftwareSerial mySerial1(RX_1_PIN, TX_1_PIN);
 SoftwareSerial mySerial2(0, TX_2_PIN);
 SoftwareSerial mySerial3(0, TX_3_PIN);
