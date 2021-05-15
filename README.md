@@ -10,9 +10,9 @@ No more serial port? The orginal softwareserial don't have transmate/receive buf
 - Working at 9600~38400 bps(38400bps for 16mhz) 
 - 4 transmit ports and 1 receiving ports 
 - Simultaneous sending and receiving 
-- The transmit must work at the same baud rate 
+- The transmit baud rate have some limitation, must be 9600 mutliply 2, like 2400... 9600, 19200, 38400.
 - Tested on arduino pro mini 8/16MHz 
-- Use timet1 interrupt for transmission 
+- Use timer1 interrupt to transmission 
 - Use pin change interrupt and Timer2 to receive
 
 ## how to install
