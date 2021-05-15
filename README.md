@@ -2,7 +2,7 @@
 
 # my Software serial, include 4 transmit port, 1 receive port
 
-No more serial port? The orginal softwareserial don't have transmate/receive buffer. so, it cann't work at same time. During transmitting, the received data will be miss.
+No more serial port? The orginal softwareserial don't have transmate/receive buffer. so, it cann't work at same time. During transmitting, the received data will be loss!
 
 
 ## this is my software serial: 
