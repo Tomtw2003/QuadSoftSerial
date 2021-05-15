@@ -61,7 +61,6 @@ void setup()
 - 工作在9600〜38400 bps
 - 4個發送和1個接收端口
 - 同時發送和接收
-- 傳輸必須以相同的波特率工作
 - 在arduino pro mini 16MHz上測試
 - 使用 timet1 interrupt 進行傳輸
 - 使用 pin change interrupt 和Timer2接收
